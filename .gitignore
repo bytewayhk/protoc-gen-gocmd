@@ -1,0 +1,10 @@
+build/**
+*.iml
+**/.idea
+bin/**
+
+# add by Bill
+*.exe
+*.iml
+**/conf.ini
+pkg/**
