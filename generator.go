@@ -541,7 +541,7 @@ func (g *Generator) generateJavaFile(file *google_protobuf.FileDescriptorProto) 
 		buf.WriteString("\");\n")
 	}
 	buf.WriteString(tab)
-	buf.WriteString("}")
+	buf.WriteString("}\n")
 	buf.WriteString("}\n")
 	response := new(plugin.CodeGeneratorResponse_File)
 	generatedFileName := "MessageTypes.java"
